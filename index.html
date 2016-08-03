@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<head>
+  <title>Stephanie Wang</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="index.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-items">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      <a class="navbar-brand" href="#">Steph</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="menu-items">
+      <ul class="nav navbar-nav navbar-right text-uppercase">
+        <li><a href="#about" class="active">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container-fluid" id="content">
+    <div class="row shadow target" id="about">
+      <div class="col-md-8 intro-text">
+        My name is Stephanie and this is a blurb about me. I have experience in x, y, and z. I'm also a huge fan of a and b.
+        <hr class="white" /> Blah blah - Blah blah blah - Blah blah blah
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="http://i.imgur.com/6SmMS9f.png" id="picture"></img>
+      </div>
+    </div>
+    <div class="row text-center shadow target" id="portfolio">
+      <div class="col-md-12 section-head">Portfolio</div>
+      <div class="col-md-12">
+        <hr class="grey" />
+      </div>
+      <div class="col-md-6">
+        <img src="http://placekitten.com/600/400" class="img-responsive portfolio-img"></img>
+      </div>
+      <div class="col-md-6">
+        <img src="http://placekitten.com/600/400" class="img-responsive portfolio-img"></img>
+      </div>
+      <div class="col-md-6">
+        <img src="http://placekitten.com/600/400" class="img-responsive portfolio-img"></img>
+      </div>
+      <div class="col-md-6">
+        <img src="http://placekitten.com/600/400" class="img-responsive portfolio-img"></img>
+      </div>
+    </div>
+    <div class="row shadow target" id="contact">
+      <div class="col-md-12 section-head text-center">Contact Me</div>
+      <div class="col-md-12">
+        <hr class="grey" />
+      </div>
+      <div class="col-md-6">
+        <form id="contact-form">
+          <div class="field">
+            <input type="text" name="name" required>
+            <label for="name">Name</label>
+          </div>
+          <div class="field">
+            <input type="text" name="email" required>
+            <label for="email">Email Address</label>
+          </div>
+          <div class="field">
+            <textarea form="contact-form" name="message" required></textarea>
+            <label for="message">Message</label>
+          </div>
+          <br/>
+          <input type="submit" value="Send">
+        </form>
+      </div>
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-5">
+        <div id="contact-text">
+          Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips for Room Escape games, random questions about the universe and the meaning of life, or beer recommendations just feel free to drop me a line anytime.
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid text-center shadow" id="footer">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="footer-bold">ABOUT THIS PAGE</div>
+        <div class="footer-text text-center">Made by Steph as a Free Code Camp exercise using Bootstrap and jQuery.</div>
+      </div>
+      <div class="col-sm-6">
+        <div class="footer-bold">AROUND THE WEB
+        </div>
+        <div class="social">
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fa fa-fw fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-fw fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-fw fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-fw fa-google-plus"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid shadow" id="copyright">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        Steph Wang (c) 2016
+      </div>
+    </div>
+  </div>
+</body>
