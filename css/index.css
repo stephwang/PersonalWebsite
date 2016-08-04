@@ -91,8 +91,8 @@ input[type=submit]{
 }
 
 .navbar {
-  background-color: #722872;
-  border-color: #722872;
+  background-color: #722872 !important;
+  border-color: #722872 !important;
   padding: 10px;
   box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
   transition: all ease 0.3s;
