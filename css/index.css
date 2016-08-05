@@ -1,15 +1,17 @@
-body {
-  background-color: grey;
+#bootstrap-overrides {
   padding-top:70px;
 }
 img {
   margin: 0 auto;
 }
-hr {
+#bootstrap-overrides hr {
   width: 90%;
   max-width: 500px;
   border: none;
   height: 5px;
+}
+#bootstrap-overrides a{
+  text-decoration: none;
 }
 
 input[type=text], textarea {
@@ -23,7 +25,8 @@ input[type=text], textarea {
   z-index: 1;
 }
 
-textarea {
+#bootstrap-overrides textarea{
+  font-size: 20px;
   resize: none;
   height: 230px;
 }
@@ -54,8 +57,8 @@ input:valid + label, textarea:valid + label{
     top: -20px;
 }
 
-textarea:focus + label, input:focus + label {
-    color: #722872 !important;
+#bootstrap-overrides textarea:focus + label, input:focus + label {
+    color: #3f91ce;
     font-size: 17px;
     font-weight: bold;
     top: -20px;
@@ -67,8 +70,9 @@ input[type=submit]{
   margin-top: 28px;
 }
 
-.active{
-  background-color: #eeeeee !important;
+#bootstrap-overrides .active{
+  background-color: #eeeeee;
+  color: #3f91ce !important;
 }
 
 .white {
@@ -77,22 +81,19 @@ input[type=submit]{
 
 .grey {
   background-color: grey;
+  margin-bottom: 50px;
 }
 
-.active {
-  background-color: white;
-}
-
-.navbar-brand {
+#bootstrap-overrides .navbar-brand {
   text-decoration: none;
-  color: white !important;
+  color: white;
   font-size: 40px;
   letter-spacing: -3px;
 }
 
-.navbar {
-  background-color: #722872 !important;
-  border-color: #722872 !important;
+#bootstrap-overrides .navbar {
+  background-color: #3f91ce;
+  border-color: #3f91ce;
   padding: 10px;
   box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
   transition: all ease 0.3s;
@@ -110,20 +111,50 @@ input[type=submit]{
   padding: 50px 0;
 }
 
-.navbar-nav {
+#bootstrap-overrides .navbar-nav {
   padding-right: 20px;
   font-size: 13px;
-  color: grey;
   font-weight: bold;
   letter-spacing: 2px;
 }
 
-.navbar-nav li {
+#bootstrap-overrides .navbar-nav li {
   display: inline-block;
 }
 
+#bootstrap-overrides .navbar-nav li a{
+  color: #eee;
+}
+
+.portfolio-item{
+  padding: 0px 20px;
+}
+
 .portfolio-img{
-  padding: 20px;
+  height: 400px;
+  width: 600px;
+  transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+}
+
+.portfolio-label{
+  position: relative;
+  color: #23527c;
+  top: -190px;
+  z-index: 3;
+  font-size: 30px;
+  font-style: italic;
+  visibility: hidden;
+}
+
+.portfolio-item:hover .portfolio-img{
+  opacity: 0.2;
+}
+.portfolio-item:hover .portfolio-label{
+  visibility: visible;
 }
 
 .shadow{
@@ -225,7 +256,7 @@ input[type=submit]{
 }
 
 #copyright {
-  background-color: #722872;
+  background-color: #3f91ce;
   color: #ffffff;
   font-size: 20px;
   padding: 25px;

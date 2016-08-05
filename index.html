@@ -9,7 +9,7 @@
   <script src="js/index.js"></script>
 </head>
 
-<body>
+<body id="bootstrap-overrides">
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-items">
@@ -36,42 +36,52 @@
   <div class="container-fluid" id="content">
     <div class="row shadow target" id="about">
       <div class="col-md-8 intro-text">
-        My name is Stephanie and I'm a product manager at Dropbox.
-        I worked in management consulting before joining Dropbox as a business analyst.
-        I've most recently been working on productivity and collaboration features for Dropbox.
+        Hello! My name is Stephanie and I'm a product manager. I currently work at Dropbox, with experience in collaboration features, growth, and cost management.
         Outside of work, I'm learning Javascript, enjoy building mini-tools and mini-games, and do the occasional drawing/crafting.
-        <hr class="white" /> Blah blah - Blah blah blah - Blah blah blah
+        <hr class="white"> product manager - aspiring developer - silly
       </div>
       <div class="col-md-4 text-center">
         <img src="http://i.imgur.com/6SmMS9f.png" id="picture"></img>
       </div>
     </div>
+
+
     <div class="row text-center shadow target" id="portfolio">
       <div class="col-md-12 section-head">Things I tinker with</div>
       <div class="col-md-12">
-        <hr class="grey" />
+        <hr class="grey">
       </div>
-      <div class="col-md-6">
-        <a href="http://codepen.io/stephwang36/">
+      <div class="col-md-6 portfolio-item">
           <img src="img/codepen.jpg" class="img-responsive portfolio-img"></img>
-        </a>
+          <a href="http://codepen.io/stephwang36/" class="portfolio-label">
+            Codepen: Front end things
+          </a>
       </div>
-      <div class="col-md-6">
-        <a href="indigocomic.net">
+      <div class="col-md-6 portfolio-item">
           <img src="img/indigo.jpg" class="img-responsive portfolio-img"></img>
+          <a href="http://indigocomic.net" class="portfolio-label">
+            Indigo: Webcomic
+          </a>
+      </div>
+      <div class="col-md-6 portfolio-item">
+        <img src="http://placekitten.com/600/400" class="img-responsive portfolio-img"></img>
+        <a href="http://codepen.io/stephwang36/" class="portfolio-label">
+            Cat
         </a>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 portfolio-item">
         <img src="http://placekitten.com/600/400" class="img-responsive portfolio-img"></img>
-      </div>
-      <div class="col-md-6">
-        <img src="http://placekitten.com/600/400" class="img-responsive portfolio-img"></img>
+        <a href="http://codepen.io/stephwang36/" class="portfolio-label">
+            Cat
+        </a>
       </div>
     </div>
+
+
     <div class="row shadow target" id="contact">
       <div class="col-md-12 section-head text-center">Contact Me</div>
       <div class="col-md-12">
-        <hr class="grey" />
+        <hr class="grey">
       </div>
       <div class="col-md-6">
         <form id="contact-form">
