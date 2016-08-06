@@ -111,6 +111,10 @@ input[type=submit]{
   padding: 50px 0;
 }
 
+#bootstrap-overrides .icon-bar{
+  background-color: white;
+}
+
 #bootstrap-overrides .navbar-nav {
   padding-right: 20px;
   font-size: 13px;
