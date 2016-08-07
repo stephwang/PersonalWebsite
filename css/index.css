@@ -99,6 +99,21 @@ input[type=submit]{
   transition: all ease 0.3s;
 }
 
+@media (max-width: 767px)
+{
+    .navbar-fixed-top
+    {
+      position: relative;
+      top: auto;
+    }
+    .navbar-collapse {
+      max-height: none;
+    }
+    body {
+      margin: 0;
+    }
+}
+
 .section-head {
   font-size: 30px;
   color: grey;
