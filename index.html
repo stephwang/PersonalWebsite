@@ -3,152 +3,32 @@
   <title>Stephanie Wang</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"> 
   <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="js/index.js"></script>
 </head>
 
-<body id="bootstrap-overrides">
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-items">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Steph</a>
+<body>
+  <div id="nav">
+    <a class="nav-brand" href="">Steph</a>
+
+    <div id="menu-items">
+      <div class="menu-item"><a href="" class="active">About</a></div>
+      <div class="menu-item"><a href="resume.html">Resume</a></div>
+      <div class="menu-item"><a href="portfolio.html">Portfolio</a></div>
     </div>
+  </div>
 
-    <div class="collapse navbar-collapse" id="menu-items">
-      <ul class="nav navbar-nav navbar-right text-uppercase">
-        <li><a href="#about" class="active">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-
-  <div class="container-fluid" id="content">
-    <div class="row shadow target" id="about">
-      <div class="col-md-8 intro-text">
-        Hello! My name is Stephanie and I'm a product manager. I currently work at Dropbox, with experience in collaboration features, growth, and cost management.
+  <div id="content">
+    <div id="intro">
+      <img src="http://i.imgur.com/6SmMS9f.png" class="intro-img"></img>
+      <div class="intro-text">
+        Hello! My name is Stephanie Wang. I'm a product manager at Dropbox, with experience in file collaboration, growth, and cost management.
         Outside of work, I'm learning Javascript, enjoy building mini-tools and mini-games, and do the occasional drawing/crafting.
-        <hr class="white"> product manager - aspiring developer - silly
-      </div>
-      <div class="col-md-4 text-center">
-        <img src="http://i.imgur.com/6SmMS9f.png" id="picture"></img>
-      </div>
-    </div>
-
-
-    <div class="row text-center shadow target" id="portfolio">
-      <div class="col-md-12 section-head">Links to things I work on</div>
-      <div class="col-md-12">
-        <hr class="grey">
-      </div>
-      <div class="col-md-6 portfolio-item">
-          <img src="img/indigo.jpg" class="img-responsive portfolio-img"></img>
-          <a href="http://indigocomic.net" class="portfolio-label">
-            Indigo: Webcomic
-          </a>
-      </div>
-      <div class="col-md-6 portfolio-item">
-          <img src="img/codepen.jpg" class="img-responsive portfolio-img"></img>
-          <a href="http://codepen.io/stephwang36/" class="portfolio-label">
-            Codepen: Front end things
-          </a>
-      </div>
-      <div class="col-md-6 portfolio-item">
-        <img src="http://placekitten.com/600/400" class="img-responsive portfolio-img"></img>
-        <a href="http://codepen.io/stephwang36/" class="portfolio-label">
-            Cat
-        </a>
-      </div>
-      <div class="col-md-6 portfolio-item">
-        <img src="http://placekitten.com/600/400" class="img-responsive portfolio-img"></img>
-        <a href="http://codepen.io/stephwang36/" class="portfolio-label">
-            Cat
-        </a>
-      </div>
-    </div>
-
-
-    <div class="row shadow target" id="contact">
-      <div class="col-md-12 section-head text-center">Contact Me</div>
-      <div class="col-md-12">
-        <hr class="grey">
-      </div>
-      <div class="col-md-6">
-        <form id="contact-form">
-          <div class="field">
-            <input type="text" name="name" required>
-            <label for="name">Name</label>
-          </div>
-          <div class="field">
-            <input type="text" name="email" required>
-            <label for="email">Email Address</label>
-          </div>
-          <div class="field">
-            <textarea form="contact-form" name="message" required></textarea>
-            <label for="message">Message</label>
-          </div>
-          <br/>
-          <input type="submit" value="Send">
-        </form>
-      </div>
-      <div class="col-md-1">
-      </div>
-      <div class="col-md-5">
-        <div id="contact-text">
-          Want to get in touch with me? Feel free to write something, though this isn't hooked up to anything yet. Sooo, you won't actually get in touch with me this way. Oh well. It will work one day. And when it does, I'll update this blurb. :)
-        </div>
       </div>
     </div>
   </div>
 
-
-  <div class="container-fluid text-center shadow" id="footer">
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="footer-bold">ABOUT THIS PAGE</div>
-        <div class="footer-text text-center">Made by Steph. Yay!</div>
-      </div>
-      <div class="col-sm-6">
-        <div class="footer-bold">AROUND THE WEB
-        </div>
-        <div class="social">
-          <ul>
-            <li>
-              <a href="https://www.linkedin.com/in/stephanie-wang-04a93552">
-                <i class="fa fa-fw fa-linkedin"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/stephwang">
-                <i class="fa fa-fw fa-github"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/swang1">
-                <i class="fa fa-fw fa-facebook"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid shadow" id="copyright">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        Steph Wang (c) 2016
-      </div>
-    </div>
+  <div id="footer">
+    <a href="https://www.linkedin.com/in/stephanie-wang-04a93552">linkedin</a> | 
+    <a href="https://github.com/stephwang">github</a> | 
+    <a href="https://www.facebook.com/swang1">facebook</a>
   </div>
 </body>
