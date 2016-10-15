@@ -72,6 +72,10 @@ object {
   margin-bottom: 100px;
 }
 
+.portfolio {
+  margin: 10px auto 20px auto;
+}
+
 .portfolio-item{
   display: inline-block;
   position: relative;
